@@ -1,0 +1,8 @@
+comments on this tutorial from thinkster...
+
+
+comments: data that persists accross multiple controllers and pages are called services, especifically factories that operate as a singleton: it will be available everywhere at every time.
+Our first factory will hold our array of posts.
+Then we will inject it to our main controller.
+
+Thus, most of the business and persistent data should be stored in services. For memory purposes, controllers are instantiated when needed and discarded when they are not.
